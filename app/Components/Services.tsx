@@ -1,5 +1,5 @@
 import React from "react";
-import { FaShoppingCart, FaDollarSign, FaHeart, FaTruck, FaUtensils, FaPeopleCarry, FaHome, FaRegClock } from "react-icons/fa";
+import { FaDollarSign, FaHeart, FaUtensils, FaPeopleCarry, FaHome, FaRegClock } from "react-icons/fa";
 
 const Services: React.FC = () => {
   return (

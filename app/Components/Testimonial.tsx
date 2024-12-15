@@ -1,4 +1,7 @@
+"use client";
+
 import React, { useState } from "react";
+import Image from "next/image"; // Import the Image component from Next.js
 import { FaQuoteLeft } from "react-icons/fa";
 
 const testimonials = [
@@ -7,7 +10,7 @@ const testimonials = [
     image: "/profile2.jpg", // Replace with the actual image path
     name: "Mr. Abrar",
     testimonial: "Best chicken, unbeatable prices!",
-  },  
+  },
   {
     id: "02",
     image: "/profile2.jpg", // Replace with the actual image path
@@ -28,7 +31,6 @@ const testimonials = [
   },
 ];
 
-
 const Testimonial: React.FC = () => {
   const [activeTestimonial, setActiveTestimonial] = useState(0);
 
@@ -40,10 +42,12 @@ const Testimonial: React.FC = () => {
         <div className="flex justify-between items-center lg:pl-48">
           {/* Left: Circular Image with Quote Icon */}
           <div className="relative w-40 h-40 rounded-full overflow-hidden border-4 border-gray-300">
-            <img
+            <Image
               src={testimonials[activeTestimonial].image}
               alt={testimonials[activeTestimonial].name}
-              className="w-full h-full object-cover"
+              width={160} // Provide width
+              height={160} // Provide height
+              className="object-cover"
             />
             {/* Position the quote icon slightly outside the image border */}
             <div className="absolute top-[-12px] right-[-12px] p-2 bg-white rounded-full shadow-md z-10">

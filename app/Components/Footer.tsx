@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { FaFacebookF, FaInstagram, FaAngleRight } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import {FaMapMarkerAlt } from "react-icons/fa";
 import { Phone } from "lucide-react";
 
 const Footer: React.FC = () => {

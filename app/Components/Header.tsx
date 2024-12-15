@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import { Phone, MessageSquare, LocateIcon } from "lucide-react"; // Icons from lucide-react
+import { Phone} from "lucide-react"; // Icons from lucide-react
 import { FaFacebookF, FaInstagram,FaLocationArrow  } from "react-icons/fa"; // Social media icons from react-icons
 import { FaXTwitter } from "react-icons/fa6";
 
