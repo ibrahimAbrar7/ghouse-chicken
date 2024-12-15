@@ -23,8 +23,8 @@ const Contact = () => {
             {/* Phone Number */}
             <div className="flex items-center space-x-3 mb-6">
               <FaPhone className="text-red-600 text-2xl" />
-              <Link href="tel:9949592380" className="text-black hover:text-black-800 text-lg font-medium">
-              934-6682-857
+              <Link href="tel:9959627622" className="text-black hover:text-black-800 text-lg font-medium">
+              995-9627-622
               </Link>
             </div>
 

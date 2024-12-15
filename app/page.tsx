@@ -38,8 +38,8 @@ const Home = () => {
       {/* Navbar - make it fixed when scrolled */}
       <Navbar isScrolled={isScrolled} />
       <Carousel />
-      <About />
       <Services />
+      <About />
       <Testimonial />
       <Contact />
       <Footer />

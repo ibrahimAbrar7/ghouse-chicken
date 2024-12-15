@@ -8,7 +8,7 @@ const About: React.FC = () => {
         <h2 className="text-3xl font-semibold text-gray-800 mb-4">
           About Us
         </h2>
-        <p className="text-lg text-gray-600 leading-relaxed mb-4">
+        <p className="text-lg text-gray-600 leading-relaxed mb-4 text-justify">
           Ghouse Chicken Center is your go-to destination for fresh, high-quality chicken in the Housing Board, Moula Ali area. Known for our unbeatable prices and premium products, we’ve become a local favorite. Whether it’s for everyday meals or special occasions, we promise top-notch quality and taste with every purchase. Our commitment to freshness and customer satisfaction has earned us the trust of the community, making us a household name in the region.
         </p>
       </div>
