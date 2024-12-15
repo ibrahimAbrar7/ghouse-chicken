@@ -23,7 +23,7 @@ const Header = () => {
           <div className="flex items-center space-x-6 text-sm md:text-lg text-gray-800">
             <button className="flex items-center space-x-2 text-sm md:text-lg text-white hover:text-blue-600">
             <Phone className="w-4 h-4 md:w-5 md:h-5 text-white" />
-            <span><Link href="tel:9949592380" className="text-white">934-6682-857</Link></span>
+            <span><Link href="tel:9959627622" className="text-white">995-9627-622</Link></span>
             </button>
             <div className="flex items-center space-x-3">
               {/* Facebook Icon */}

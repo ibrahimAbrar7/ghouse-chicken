@@ -126,7 +126,7 @@ const Footer: React.FC = () => {
               Call Us :
               <p className="text-black mb-2">
                 <Phone className="text-black text-xl inline mr-2" />
-                934-6682-857
+                995-9627-622
               </p>
             </Link>
             <p className="text-black">

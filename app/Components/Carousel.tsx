@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight, Link } from "lucide-react";
 
 const Carousel: React.FC = () => {
   const slides = [
@@ -66,7 +66,7 @@ const Carousel: React.FC = () => {
               </h2>
               <p className="text-lg text-white mb-6">{slide.description}</p>
               <button className="px-6 py-3 bg-red-600 text-white font-semibold rounded-lg shadow-md hover:bg-red-700 transition-colors">
-                Contact Us
+              <Link href="tel:9959627622">Contact Us</Link>
               </button>
             </div>
           </div>
