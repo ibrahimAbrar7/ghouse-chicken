@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { FaEnvelope, FaMapMarkerAlt, FaPhone } from "react-icons/fa";
 
@@ -22,17 +23,17 @@ const Contact = () => {
             {/* Phone Number */}
             <div className="flex items-center space-x-3 mb-6">
               <FaPhone className="text-red-600 text-2xl" />
-              <a href="tel:9949592380" className="text-black hover:text-black-800 text-lg font-medium">
+              <Link href="tel:9949592380" className="text-black hover:text-black-800 text-lg font-medium">
               934-6682-857
-              </a>
+              </Link>
             </div>
 
             {/* Email */}
             <div className="flex items-center space-x-3 mb-6">
               <FaEnvelope className="text-red-600 text-2xl" />
-              <a href="mailto:Info@ghousechicken.com" className="text-black hover:text-black-800 text-lg font-medium">
+              <Link href="mailto:Info@ghousechicken.com" className="text-black hover:text-black-800 text-lg font-medium">
                 Info@ghousechicken.com
-              </a>
+              </Link>
             </div>
 
             {/* Address */}

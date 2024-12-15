@@ -1,5 +1,5 @@
 "use client";
-
+import Link from "next/link";
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
@@ -25,7 +25,7 @@ const Navbar: React.FC<NavbarProps> = ({ isScrolled }) => {
       <div className="container mx-auto flex justify-between items-center p-4">
         {/* Logo */}
         <div className="flex items-center">
-          <a href="/about">
+          <Link href="/about">
           <Image
             src="/logo3.png"
             alt="Company Overview"
@@ -33,35 +33,35 @@ const Navbar: React.FC<NavbarProps> = ({ isScrolled }) => {
             height={100} // Set height (adjust as per your design)
             className="w-[230px] h-[80px] sm:w-48 sm:h-24 lg:w-56 lg:h-16"
           />
-          </a>
+          </Link>
         </div>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-8 text-sm text-gray-1000 font-medium tracking-[0.4em] font-poppins">
-          <a
+          <Link
             href="/"
             className="hover:text-blue-600 transition-colors duration-200"
           >
             HOME
-          </a>
-          <a
+          </Link>
+          <Link
             href="/about"
             className="hover:text-blue-600 transition-colors duration-200"
           >
             ABOUT
-          </a>
-          <a
+          </Link>
+          <Link
             href="/services"
             className="hover:text-blue-600 transition-colors duration-200"
           >
             SPECIALITY
-          </a>
-          <a
+          </Link>
+          <Link
             href="/contact"
             className="hover:text-blue-600 transition-colors duration-200"
           >
             CONTACT
-          </a>
+          </Link>
         </div>
 
         {/* Hamburger Menu for Mobile */}
@@ -78,30 +78,30 @@ const Navbar: React.FC<NavbarProps> = ({ isScrolled }) => {
       {isMenuOpen && (
         <div className="md:hidden bg-white shadow-md">
           <div className="flex flex-col space-y-4 p-4 font-medium tracking-[0.4em] font-poppins">
-            <a
+            <Link
               href="#"
               className="hover:text-blue-600 transition-colors duration-200"
             >
               HOME
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="hover:text-blue-600 transition-colors duration-200"
             >
               ABOUT
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="hover:text-blue-600 transition-colors duration-200"
             >
               SPECIALITY
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="hover:text-blue-600 transition-colors duration-200"
             >
               CONTACT
-            </a>
+            </Link>
           </div>
         </div>
       )}

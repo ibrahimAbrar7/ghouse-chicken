@@ -1,5 +1,5 @@
 "use client";
-
+import Link from "next/link";
 import React from "react";
 import { FaFacebookF, FaInstagram, FaAngleRight } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -18,24 +18,24 @@ const Footer: React.FC = () => {
               Ghouse Chicken Center is your go-to destination for premium-quality chicken at unbeatable prices.
             </p>
             <div className="flex space-x-4">
-              <a
+              <Link
                 href="#"
                 className="text-white bg-black p-2 rounded-full hover:bg-red-700 transition-colors"
               >
                 <FaFacebookF />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#"
                 className="text-white bg-black p-2 rounded-full hover:bg-red-700 transition-colors"
               >
                 <FaXTwitter />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#"
                 className="text-white bg-black p-2 rounded-full hover:bg-red-700 transition-colors"
               >
                 <FaInstagram />
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -45,33 +45,33 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li className="flex items-center">
                 <FaAngleRight className="text-red-600 mr-2" />
-                <a href="#" className="text-black hover:text-red-600">
+                <Link href="#" className="text-black hover:text-red-600">
                   Boneless Chicken
-                </a>
+                </Link>
               </li>
               <li className="flex items-center">
                 <FaAngleRight className="text-red-600 mr-2" />
-                <a href="#" className="text-black hover:text-red-600">
+                <Link href="#" className="text-black hover:text-red-600">
                   Skinless Chicken
-                </a>
+                </Link>
               </li>
               <li className="flex items-center">
                 <FaAngleRight className="text-red-600 mr-2" />
-                <a href="#" className="text-black hover:text-red-600">
+                <Link href="#" className="text-black hover:text-red-600">
                   Chicken Thighs
-                </a>
+                </Link>
               </li>
               <li className="flex items-center">
                 <FaAngleRight className="text-red-600 mr-2" />
-                <a href="#" className="text-black hover:text-red-600">
+                <Link href="#" className="text-black hover:text-red-600">
                   Chicken Drumsticks
-                </a>
+                </Link>
               </li>
               <li className="flex items-center">
                 <FaAngleRight className="text-red-600 mr-2" />
-                <a href="#" className="text-black hover:text-red-600">
+                <Link href="#" className="text-black hover:text-red-600">
                   Whole Chicken
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -82,39 +82,39 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li className="flex items-center">
                 <FaAngleRight className="text-red-600 mr-2" />
-                <a href="/" className="text-black hover:text-red-600">
+                <Link href="/" className="text-black hover:text-red-600">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="flex items-center">
                 <FaAngleRight className="text-red-600 mr-2" />
-                <a href="/about" className="text-black hover:text-red-600">
+                <Link href="/about" className="text-black hover:text-red-600">
                   About
-                </a>
+                </Link>
               </li>
               <li className="flex items-center">
                 <FaAngleRight className="text-red-600 mr-2" />
-                <a href="/services" className="text-black hover:text-red-600">
+                <Link href="/services" className="text-black hover:text-red-600">
                   Speciality
-                </a>
+                </Link>
               </li>
               <li className="flex items-center">
                 <FaAngleRight className="text-red-600 mr-2" />
-                <a href="/portfolio" className="text-black hover:text-red-600">
+                <Link href="/portfolio" className="text-black hover:text-red-600">
                   Testimonials
-                </a>
+                </Link>
               </li>
               <li className="flex items-center">
                 <FaAngleRight className="text-red-600 mr-2" />
-                <a href="/portfolio" className="text-black hover:text-red-600">
+                <Link href="/portfolio" className="text-black hover:text-red-600">
                   Map Location
-                </a>
+                </Link>
               </li>
               <li className="flex items-center">
                 <FaAngleRight className="text-red-600 mr-2" />
-                <a href="/contact" className="text-black hover:text-red-600">
+                <Link href="/contact" className="text-black hover:text-red-600">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -122,13 +122,13 @@ const Footer: React.FC = () => {
           {/* Contact Section */}
           <div>
             <h2 className="text-xl font-bold uppercase mb-4 text-black">Contact</h2>
-            <a href="tel:9949592380" className="text-black hover:text-red-600">
+            <Link href="tel:9949592380" className="text-black hover:text-red-600">
               Call Us :
               <p className="text-black mb-2">
                 <Phone className="text-black text-xl inline mr-2" />
                 934-6682-857
               </p>
-            </a>
+            </Link>
             <p className="text-black">
               Address : <br />
               <span className="text-black">
